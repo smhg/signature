@@ -1,0 +1,35 @@
+body {
+	font-family: sans-serif;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	margin: 10px 0;
+}
+
+.result {
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+}
+
+.result.error {
+	background-color: #f00;
+}
+
+.result.success {
+	background-color: #0f0;
+}
+
+#signature {
+	border: 1px solid #ccc;
+	height: 400px;
+}
+
+button {
+	padding: 10px;
+	margin-top: 10px;
+}

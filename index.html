@@ -4,8 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Signature</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <script src="index.js"></script>
+  Pixelszám: <input type="number" id="threshold" value="1000" />
+  <form id="form">
+  <canvas id="signature" width="400" height="400"></canvas>
+  <button>Elküldés</button>
+  </form>
+  <script src="draw.js"></script>
+  <script src="submit.js"></script>
+  <script type="text/javascript">
+    window.addEventListener('load', activateCanvas);
+    window.addEventListener('load', handleSubmit);
+  </script>
 </body>
 </html>
